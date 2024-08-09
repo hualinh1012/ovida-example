@@ -1,3 +1,5 @@
+USE example;
+
 CREATE TABLE `permissions`
 (
     `permissionId`   int(11) NOT NULL AUTO_INCREMENT,

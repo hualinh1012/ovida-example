@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS example;
+
+USE example;
+
 INSERT IGNORE INTO `permissions` (permissionId, permissionName, description)
 VALUES (1, 'GetAllUser', 'Allow to use GetAllUser API'),
        (2, 'GetCurrentUser', 'Allow to use GetCurrentUser API'),
